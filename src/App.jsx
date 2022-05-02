@@ -1,4 +1,4 @@
-import VideoPlayer from './components/VideoPlayer'
+import FeedVideos from './components/FeedVideos'
 
 import './App.css'
 
@@ -7,7 +7,7 @@ function App () {
     <div className='App'>
       <main>
 
-        <VideoPlayer />
+        <FeedVideos />
       </main>
     </div>
   )
