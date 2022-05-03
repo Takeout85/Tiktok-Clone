@@ -13,7 +13,7 @@ const VIDEOS = [
     songTitle: 'original sound - PMSQUARED',
     albumCover:
       'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/6a087341780da6591c4e8de39b725a0a~c5_720x720.jpeg?x-expires=1651680000&x-signature=jgnyvuP7eCvhiGFUO7XrexRyPvM%3D',
-    src: 'https://v16-webapp.tiktok.com/000565086359451774261f87d22607b0/62706b69/video/tos/alisg/tos-alisg-pve-0037c001/3fd3149c0f0b4a7e9b27764445a449a7/?a=1988&br=2972&bt=1486&cd=0%7C0%7C1%7C0&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=eXd.6HpDMyq8Z.5Kjwe2Nb~Tyl7Gb&l=202205021737020101921680910442DD4C&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=anhsdDo6Zjh3PDMzODczNEApMzk5NDZlOWRkN2g3aTw3ZGdvcWM2cjRfM2lgLS1kMS1zczZjMWAyX2E2NTU1MWFfLy86Yw%3D%3D&vl=&vr='
+    src: 'https://v16-webapp.tiktok.com/12fc801c45329e2a475eb27a220af84f/6271a0d5/video/tos/useast2a/tos-useast2a-ve-0068c002/69600aaef3d6437aaa4c5e6269b05dcf/?a=1988&br=2824&bt=1412&cd=0%7C0%7C1%7C0&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=eXd.6HpDMyq8Z5W6jwe2NUhCol7Gb&l=2022050315370301022308613423FDD7CA&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=MzRnbzg6ZmkzPDMzNzczM0ApNGQ6NDxnaTw0NzU5Zzk2ZmdhNW1ecjRnNWxgLS1kMTZzc2E0NmEtLy01MDIxYWBgNmE6Yw%3D%3D&vl=&vr='
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ const VIDEOS = [
     comments: 333,
     songTitle: 'original sound - PMSQUARED',
     albumCover: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/e10a67c1c98a9bc8a9471404c5408b8b~c5_720x720.jpeg?x-expires=1651701600&x-signature=9z5vlqtggIHzcSRrKnon8gn3Ujs%3D',
-    src: 'https://v16-webapp.tiktok.com/e7d8cf64b2c4bc87e2b4f4077cafd32b/6270a973/video/tos/useast2a/tos-useast2a-ve-0068c004/519c54847c2f44139adff016e2aa1593/?a=1988&br=3868&bt=1934&cd=0%7C0%7C1%7C0&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=eXd.6HpDMyq8Z-DCjwe2NEtwyl7Gb&l=202205022200440102230841542579C814&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=ajN3czQ6Zm92OzMzNzczM0ApZWlnaGg7OTw7Nzk5NGk6PGdfa3FpcjRvLW1gLS1kMTZzc14uNjIuNTBeXzMzNjFeL186Yw%3D%3D&vl=&vr='
+    src: 'https://v16-webapp.tiktok.com/5f25987a64708175fc4903d70810b50c/6271a0c1/video/tos/useast2a/tos-useast2a-ve-0068c001/e3124be31c8b45dfb0e2982bbb2a2325/?a=1988&br=2608&bt=1304&cd=0%7C0%7C1%7C0&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=eXd.6HpDMyq8Z5W6jwe2NUhCol7Gb&l=2022050315370301022308613423FDD7CA&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=anNzaTw6ZnQ3PDMzNzczM0ApZDdpZzY0N2U3N2ZkM2dkaWdlNDZocjRvbmJgLS1kMTZzczFjXi1eNjZgMC8tYTYxY146Yw%3D%3D&vl=&vr='
   }
 ]
 export default function FeedVideos () {
