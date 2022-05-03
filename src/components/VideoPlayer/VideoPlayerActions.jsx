@@ -2,8 +2,9 @@ import { Heart } from '../Icons/Heart'
 import { Comment } from '../Icons/Comment'
 import { Share } from '../Icons/Share'
 import styles from './styles.module.css'
+import Plus from '../../assets/plus.svg'
 
-export default function VideoPlayerActions ({ likes = 2312, comments = 334, shares = 536, hearted = false }) {
+export default function VideoPlayerActions ({ username, avatar, likes = 2312, comments = 334, shares = 536, sharted = false }) {
   const handleLike = () => {
     console.log('Liked')
   }
@@ -18,6 +19,10 @@ export default function VideoPlayerActions ({ likes = 2312, comments = 334, shar
 
   return (
     <aside className={styles.actions}>
+      <div className={styles.user}>
+        <img src={avatar} alt={username} />
+        <img src={Plus} />
+      </div>
       <button onClick={handleLike} className={styles.action}>
         <Heart width='45' />
         <span title='like'>{likes}</span>

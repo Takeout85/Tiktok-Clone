@@ -46,3 +46,20 @@
   text-align: center;
 }
 
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.user img:first-child {
+  height: 48px;
+  width: 48px;
+  border-radius: 100%;
+}
+
+.user img:last-child {
+  height: 24px;
+  margin-top: -12px;
+}
