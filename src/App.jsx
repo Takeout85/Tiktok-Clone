@@ -1,13 +1,19 @@
 import FeedVideos from './components/FeedVideos'
-
+import { Route } from 'wouter'
+import Upload from './pages/Upload/index'
 import './App.css'
 
 function App () {
   return (
     <div className='App'>
       <main>
+        <Route path='/'>
+          <FeedVideos />
+        </Route>
 
-        <FeedVideos />
+        <Route path='/upload'>
+          <Upload />
+        </Route>
       </main>
     </div>
   )
